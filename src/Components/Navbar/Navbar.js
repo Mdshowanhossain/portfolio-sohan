@@ -3,7 +3,7 @@ import './Navbar.css';
 import { Link } from 'react-router-dom';
 import cross from '../images/cross.png';
 import right from '../images/right.png';
-import git from '../images/git.png';
+import logo from '../images/logo.png';
 
 const Navbar = () => {
     const [open, setOpen] = useState(false)
@@ -29,7 +29,7 @@ const Navbar = () => {
             <div className="nav-wrapper">
                 <div className="logo">
                     <Link to="/">
-                        <img src={git} alt="git" />
+                        <img src={logo} alt="git" />
                     </Link>
                 </div>
 

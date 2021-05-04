@@ -2,7 +2,7 @@ main{
     width: 100%;
     padding: 10px 0;
 }
-main a img {
+/* main a img {
     width: 100%;
     max-width: 200px;
     margin: 20px;
@@ -13,11 +13,11 @@ main img:not(:last-child){
     margin-right: 10px;
 }
 
+ */
 
 
 
-
-.works{
+/* .works{
     flex-grow: 1;
 }
 .works h1{
@@ -26,4 +26,4 @@ main img:not(:last-child){
 .project-detail{
     text-align: center;
     margin-bottom: 28px;
-}
+} */

@@ -5,13 +5,14 @@ import fb from '../images/fb.png';
 import git from '../images/git.png';
 import gmail from '../images/gmail.png';
 import wht from '../images/wht.png';
+import lind from '../icons/lind.png';
 
 const Footer = () => {
     return (
         <footer>
-            <a href="https://www.facebook.com/profile.php?id=100059117229160" target="_blank">
+            <a href="https://www.linkedin.com/in/mohammad-sohan-06a6b8211/" target="_blank">
                 <img
-                    src={fb}
+                    src={lind}
                     alt="facebook"
                 />
             </a>

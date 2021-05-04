@@ -5,7 +5,7 @@ const About = () => {
         <div className="about">
             <h1>Bio</h1>
             <p>
-                I am a highly motivated and progress-focused Web Developer with a long-standing background in this industry. During my 1 year of experience as a full-stack Web Developer,I have developed both the functional and aesthetic components of client websites.I believe I can make an immediate impact on any organization with my unique blend of skills and passion.
+                I am a highly motivated and progress-focused Web Development with a long-standing background in this industry. During my 1 year of experience as a Front-End Developer,I have developed both the functional and aesthetic components of client websites.I believe I can make an immediate impact on any organization with my unique blend of skills and passion.
 
             </p>
 
