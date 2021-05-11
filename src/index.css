@@ -38,8 +38,7 @@ code {
 }
 p{
   line-height: 30px;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-  monospace;
+  font-family: 'Open Sans', sans-serif;
 }
 h1, h2{
   font-family:"Righteous, cursive" ;

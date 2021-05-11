@@ -25,14 +25,12 @@ const Navbar = () => {
 
     return (
         <nav className="navbar">
-
             <div className="nav-wrapper">
                 <div className="logo">
                     <Link to="/">
-                        <img src={logo} alt="git" />
+                        {/* <img src={logo} alt="git" /> */}
                     </Link>
                 </div>
-
                 <div className="list-wrapper">
                     <img
                         src={right}
@@ -65,9 +63,9 @@ const Navbar = () => {
                             <Link to="/contacts">Contact</Link>
                         </li>
                         <li>
-                            <Link to="/work">Works</Link>
+                            <Link to="/work">Projects</Link>
                         </li>
-                     
+
                     </ul>
                 </div>
             </div>

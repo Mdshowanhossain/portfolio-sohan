@@ -9,7 +9,7 @@ import Footer from './Components/Footer/Footer';
 import About from './Components/About/About';
 import Navbar from './Components/Navbar/Navbar';
 import Skills from './Components/Skills/Skills';
-import Works from './Components/Works/Works';
+import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
           <Route exact path="/skill"><Skills /></Route>
         </Switch>
         <Switch>
-          <Route exact path="/work"><Works /></Route>
+          <Route exact path="/work"><Projects/></Route>
         </Switch>
         <Switch>
           <Route exact path="/contacts"><Contact /></Route>

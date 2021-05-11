@@ -1,10 +1,8 @@
 import React from 'react';
 import './Footer.css';
 import twt from '../images/twt.png';
-import fb from '../images/fb.png';
 import git from '../images/git.png';
 import gmail from '../images/gmail.png';
-import wht from '../images/wht.png';
 import lind from '../icons/lind.png';
 
 const Footer = () => {
@@ -28,18 +26,14 @@ const Footer = () => {
                     alt="Email"
                 />
             </a>
-            <a href="https://wa.me/+8801998110072" target="_blank">
-                <img
-                    src={wht}
-                    alt="WhatsApp"
-                />
-            </a>
+
             <a href="https://github.com/Mdshowanhossain" target="_blank">
                 <img
                     src={git}
                     alt="git hub"
                 />
             </a>
+
         </footer>
     );
 };

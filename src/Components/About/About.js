@@ -1,37 +1,26 @@
 import React from 'react';
-import './About.css';
+import './About.modules.css';
 const About = () => {
     return (
         <div className="about">
-            <h1>Bio</h1>
-            <p>
-                I am a highly motivated and progress-focused Web Development with a long-standing background in this industry. During my 1 year of experience as a Front-End Developer,I have developed both the functional and aesthetic components of client websites.I believe I can make an immediate impact on any organization with my unique blend of skills and passion.
-
-            </p>
-
-            <br />
-
-            <p>
-                My professional experience includes using programming languages such as HTML, CSS, and JavaScript, React js to create various features for client websites. I also have experience in Node js, Express js, MongoDB & MySQL developing and managing databases.
-            </p>
-
-            <br />
-
-            <p>
-
-                <h4>Here are some highlights of my accomplishments as a Web Developer:</h4><br />
-                <li>Successfully collaborated and efficiently communicated with project stakeholders to bring their vision to digital reality.</li>
-                <li>Developed Databases using MongoDB & MySQL proficiency.</li>
-                <li>Wrote code for various website functions using HTML, CSS, and JavaScript.</li>
-             
-            </p>
-            <br/>
-
-            <p><strong> I would greatly appreciate the opportunity to speak with you regarding my candidacy.</strong></p>      <br/>
-            <h4>Thank You</h4>
-
-
+            <div className="about-img">
+                <img src="/profile.jpg" alt="" />
+            </div>
+            <div className="details">
+                <h1 style={{ marginBottom: '7px', color: '#565454' }}>MOHAMMAD SOHAN</h1>
+                <h3 style={{ marginBottom: '4px', color: '#565454' }}>
+                    <img style={{ width: '20px' }} src="/call.png" />
+                        +8801998110072
+                    </h3>
+                <p className="para">I am a highly motivated and progress-focused Web Development with a long-standing background in this industry. During my 5 months of experience as a front-end Developer,I have developed both the functional and aesthetic components of client websites.I believe I can make an immediate impact on your organization with my unique blend of skills and passion.</p>
+                <button className="resume-btn">
+                    <a style={{ color: 'white' }} href="https://drive.google.com/file/d/1H_U7qNBqMf0eG-ASUfWKimWB-qzwkbpt/view?usp=sharing" target="_blank" >
+                        Download Resume
+                        </a >
+                </button>
+            </div>
         </div>
+
     );
 };
 
